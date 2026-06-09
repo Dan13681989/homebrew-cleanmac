@@ -11,7 +11,6 @@ class CleanmacPro < Formula
     bin.install "cleanmac"
     prefix.install Dir["src", "cleanmac-dashboard", "uninstall.sh"]
     # Ensure the wrapper can find helpers
-    inreplace bin/"cleanmac", /^PREFIX=.*/, "PREFIX=\"#{prefix}\""
   end
 
   test do
