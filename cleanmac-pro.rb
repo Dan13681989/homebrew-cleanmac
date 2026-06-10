@@ -9,8 +9,7 @@ class CleanmacPro < Formula
 
   def install
     bin.install "cleanmac"
-    prefix.install Dir["src", "cleanmac-dashboard", "uninstall.sh"]
-    # Ensure the wrapper can find helpers
+    prefix.install Dir["src", "scripts", "cleanmac-dashboard", "uninstall.sh"]
   end
 
   test do
