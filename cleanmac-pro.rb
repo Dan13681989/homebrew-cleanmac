@@ -1,8 +1,8 @@
 class CleanmacPro < Formula
   desc "Professional macOS optimization suite with TUI and security scanning"
   homepage "https://github.com/Dan13681989/CleanMac-Pro"
-  url "https://github.com/Dan13681989/CleanMac-Pro/archive/refs/tags/v3.0.28.tar.gz"
-  sha256 "cae4478f2f3c60f74d1a3505c4f802f349b2336e0830ea6e20c1ff85ad68dc3f"
+  url "https://github.com/Dan13681989/CleanMac-Pro/archive/refs/tags/v3.0.29.tar.gz"
+  sha256 "c77f2db4f21c8d83470017dc38e906e2aaa3ef4757380dac5a0b8009b2622597"
   license "MIT"
 
   depends_on :macos
